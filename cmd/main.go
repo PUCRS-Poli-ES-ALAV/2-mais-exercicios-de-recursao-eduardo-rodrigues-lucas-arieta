@@ -9,5 +9,6 @@ import (
 func main() {
 	fmt.Println("Hello, World!")
 
-	fmt.Println(solution.Fatorial(10))
+	fmt.Println("fatorial:", solution.Fatorial(10))
+	fmt.Println("somatorio:", solution.Somatorio(5))
 }
